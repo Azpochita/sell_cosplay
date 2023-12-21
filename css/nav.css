@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'Genshin';
+    src: url('zh-cn.ttf') format('truetype');
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Genshin';
 }
 
 .navbar{

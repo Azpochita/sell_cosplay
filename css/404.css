@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Genshin';
+    src: url('zh-cn.ttf') format('truetype');
+}
+
+.four-0-four-image{
+    display: block;
+    margin: 60px auto;
+}
+
+.four-0-four-msg{
+    font-family: 'Genshin';
+    text-align: center;
+    text-transform: capitalize;
+    color: #383838;
+    font-size: xx-large;
+}
+
+.four-0-four-msg a{
+    font-family: 'Genshin';
+    color: #383838;
+    font-size: xx-large;
+}
+

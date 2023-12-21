@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AZPO Props</title>
     <link rel="stylesheet" href="css/home.css"> 
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/search.css">
 </head>
 <body>
     <nav class="navbar"></nav>
@@ -17,72 +19,155 @@
 
     <script src="js/nav.js"></script>
     <script src="js/home.js"></script>
-    <script src="js/footer.js"></script>
+    <script src="js/product.js"></script>
+    
+    <section class="search-results">
+        <h2 class="heading">search results for <span>product</span></h2>
+    </section>
 
     <section class="product">
         <h2 class="product-category">best selling</h2>
-        <button class="pre-btn" title="Description of the button"><img src="pictures/arrow.png" alt=""></button>
-        <button class="pre-nxt" title="Description of the button"><img src="pictures/arrow.png" alt=""></button>
+        <button type="button" class="pre-btn" title="Description of the button"><img src="pictures/arrow.png" alt=""></button>
+        <button type="button" class="nxt-btn" title="Description of the button"><img src="pictures/arrow.png" alt=""></button>
 
         <div class="product-container">
             <div class="product-card">
                 <div class="product-image">
-                    <span class="discount-tag">50% off</span>
+                    <span class="discount-tag"></span>
                     <img src="pictures/Kafka_guns.jpg" class="product-thumb" alt="">
                     <button class="card-btn">add to cart</button>
                 </div>
                 <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
+                    <h2 class="product-brand">Kafka Guns</h2>
+                    <p class="product-short-des">Boom</p>
+                    <span class="price">$100</span><span class="actual-price"></span>
                 </div>
             </div>
             <div class="product-card">
                 <div class="product-image">
-                    <span class="discount-tag">50% off</span>
+                    <span class="discount-tag"></span>
                     <img src="pictures/JingYuan.jpg" class="product-thumb" alt="">
                     <button class="card-btn">add to cart</button>
                 </div>
                 <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
+                    <h2 class="product-brand">JingYuan Glaive</h2>
+                    <p class="product-short-des">Radiant Spirit, Show no Mercy</p>
+                    <span class="price">$150</span><span class="actual-price"></span>
                 </div>
             </div>
             <div class="product-card">
                 <div class="product-image">
-                    <span class="discount-tag">50% off</span>
+                    <span class="discount-tag"></span>
                     <img src="pictures/Gun.jpg" class="product-thumb" alt="">
                     <button class="card-btn">add to cart</button>
                 </div>
                 <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
+                    <h2 class="product-brand">Karabiner 98k</h2>
+                    <p class="product-short-des">Please don't arrest me</p>
+                    <span class="price">$200</span><span class="actual-price"></span>
                 </div>
             </div>
             <div class="product-card">
                 <div class="product-image">
-                    <span class="discount-tag">50% off</span>
+                    <span class="discount-tag"></span>
                     <img src="pictures/Amos.jpg" class="product-thumb" alt="">
                     <button class="card-btn">add to cart</button>
                 </div>
                 <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
+                    <h2 class="product-brand">Amos' Bow</h2>
+                    <p class="product-short-des"></p>
+                    <span class="price">$200</span><span class="actual-price"></span>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag"></span>
+                    <img src="pictures/Alhaitham.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">lofi + cutlass</h2>
+                    <p class="product-short-des">See ya</p>
+                    <span class="price">$200</span><span class="actual-price"></span>
+                
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag"></span>
+                    <img src="pictures/Mastersword.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Master Sword</h2>
+                    <p class="product-short-des">Here, take this</p>
+                    <span class="price">$125</span><span class="actual-price"></span>
+                
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag"></span>
+                    <img src="pictures/Kafka_sword.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Kafka Katana</h2>
+                    <p class="product-short-des">Boom pt.2</p>
+                    <span class="price">$125</span><span class="actual-price"></span>
+                
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag"></span>
+                    <img src="pictures/ODM_gear.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">ODM Gear</h2>
+                    <p class="product-short-des">Freedom</p>
+                    <span class="price">$350</span><span class="actual-price">400</span>
+                
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag"></span>
+                    <img src="pictures/Mistsplitter.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Mistsplitter</h2>
+                    <p class="product-short-des">AYAYA.</p>
+                    <span class="price">$150</span><span class="actual-price">$200</span>
+                
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag"></span>
+                    <img src="pictures/Texas.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to cart</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Texas Sword</h2>
+                    <p class="product-short-des">We're a long way from Texas</p>
+                    <span class="price">$100</span><span class="actual-price">$125</span>
+                
                 </div>
             </div>
             <div class="product-card">
                 <div class="product-image">
                     <span class="discount-tag">50% off</span>
-                    <img src="pictures/Alhaitham.jpg" class="product-thumb" alt="">
+                    <img src="pictures/Dragonslayer.jpg" class="product-thumb" alt="">
                     <button class="card-btn">add to cart</button>
                 </div>
                 <div class="product-info">
-                    <h2 class="product-brand">brand</h2>
-                    <p class="product-short-des">a short line about the cloth..</p>
-                    <span class="price">$20</span><span class="actual-price">$40</span>
+                    <h2 class="product-brand">DragonSlayer</h2>
+                    <p class="product-short-des">A huge slab of iron</p>
+                    <span class="price">$250</span><span class="actual-price">$300</span>
+                
                 </div>
             </div>
         </div>
@@ -103,59 +188,10 @@
             <p class="collection-title">Accessories</p>
         </a>
     </section>
-    <footer>
-        <div class="footer-content">
-            <img src="pictures/pochita-spin.gif" class="logo" alt="">
-            <div class="footer-ul-container">
-                <ul class="category">
-                    <li class="category-title">men</li>
-                    <li><a href="#" class="footer-link">t-shirts</a></li>
-                    <li><a href="#" class="footer-link">sweatshirts</a></li>
-                    <li><a href="#" class="footer-link">shirts</a></li>
-                    <li><a href="#" class="footer-link">jeans</a></li>
-                    <li><a href="#" class="footer-link">trousers</a></li>
-                    <li><a href="#" class="footer-link">shoes</a></li>
-                    <li><a href="#" class="footer-link">casuals</a></li>
-                    <li><a href="#" class="footer-link">formals</a></li>
-                    <li><a href="#" class="footer-link">sports</a></li>
-                    <li><a href="#" class="footer-link">watch</a></li>
-                </ul>
-                <ul class="category">
-                    <li class="category-title">women</li>
-                    <li><a href="#" class="footer-link">t-shirts</a></li>
-                    <li><a href="#" class="footer-link">sweatshirts</a></li>
-                    <li><a href="#" class="footer-link">shirts</a></li>
-                    <li><a href="#" class="footer-link">jeans</a></li>
-                    <li><a href="#" class="footer-link">trousers</a></li>
-                    <li><a href="#" class="footer-link">shoes</a></li>
-                    <li><a href="#" class="footer-link">casuals</a></li>
-                    <li><a href="#" class="footer-link">formals</a></li>
-                    <li><a href="#" class="footer-link">sports</a></li>
-                    <li><a href="#" class="footer-link">watch</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+
+    <footer></footer>
     
-    <footer>
-        // previous elements
-        <p class="footer-title">about company</p>
-        <p class="info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat tempore ad suscipit, eos eius quisquam sed optio nisi quaerat fugiat ratione et vero maxime praesentium, architecto minima reiciendis iste quo deserunt assumenda alias ducimus. Ullam odit maxime id voluptates rerum tenetur corporis laboriosam! Cum error ipsum laborum tempore in rerum necessitatibus nostrum nobis modi! Debitis adipisci illum nemo aperiam sed, et accusamus ut officiis. Laborum illo exercitationem quo culpa reprehenderit excepturi distinctio tempore cupiditate praesentium nisi ut iusto, assumenda perferendis facilis voluptas autem fuga sunt ab debitis voluptatum harum eum. Asperiores, natus! Est deserunt incidunt quasi placeat omnis, itaque harum?</p>
-        <p class="info">support emails - help@clothing.com, customersupport@clothing.com</p>
-        <p class="info">telephone - 180 00 00 001, 180 00 00 002</p>
-        <div class="footer-social-container">
-            <div>
-                <a href="#" class="social-link">terms & services</a>
-                <a href="#" class="social-link">privacy page</a>
-            </div>
-            <div>
-                <a href="#" class="social-link">instagram</a>
-                <a href="#" class="social-link">facebook</a>
-                <a href="#" class="social-link">twitter</a>
-            </div>
-        </div>
-        <p class="footer-credit">Clothing, Best apparels online store</p>
-    </footer>
+    <script src="js/footer.js"></script>
 </body>
 
 </html>
