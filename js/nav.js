@@ -20,7 +20,7 @@ const createNav = () => {
             <li class="link-item"><a href="#" class="link">Armors</a></li>
             <li class="link-item"><a href="#" class="link">Accessories</a></li>
         </ul>
-    `;
+    `; 
 }
 
 createNav();
